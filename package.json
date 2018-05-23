@@ -1,11 +1,11 @@
 {
   "name": "expiriment_with_npm",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Expiriment with npm package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall" : "scripts/install.js"
+    "postinstall" : "node ./scripts/install.js"
   },
   "repository": {
     "type": "git",
